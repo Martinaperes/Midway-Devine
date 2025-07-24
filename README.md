@@ -27,13 +27,14 @@ MidwayCafe revolutionizes traditional cafe operations by digitizing reservations
 
 ---
 
+```
+
  Application Snapshots  
 
 ![MidwayCafe Screenshot](https://github.com/Martinaperes/Midway-Devine/blob/main/images/image%20copy%204.png?raw=true)
 
 
-
----
+```markdown
 
 Technology Stack  
 
