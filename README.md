@@ -1,5 +1,5 @@
 
-Here’s a **clean and professional `README.md`** for your Laravel-based project **MidwayCafe**:
+**MidwayCafe**:
 
 ---
 
@@ -8,7 +8,7 @@ Here’s a **clean and professional `README.md`** for your Laravel-based project
 
 MidwayCafe is a web-based cafe management system designed to streamline and modernize cafe operations. It allows users to register, log in, and make reservations seamlessly, while chefs can view incoming requests and manage their part efficiently.
 
-Built with **Laravel** and **MySQL**, the application follows the **MVC (Model-View-Controller)** architecture pattern for clean and scalable code organization.
+Built with *Laravel* and *MySQL*, the application follows the *MVC (Model-View-Controller)* architecture pattern for clean and scalable code organization.
 
 ---
 
@@ -27,12 +27,12 @@ Built with **Laravel** and **MySQL**, the application follows the **MVC (Model-V
 
 | Layer       | Technology         |
 |-------------|--------------------|
-| Framework   | Laravel (PHP)       |
-| Backend     | PHP (Laravel MVC)   |
-| Database    | MySQL               |
-| Frontend    | Blade Templates / HTML / CSS |
-| Auth        | Laravel Auth Scaffolding |
-| Deployment  | (Customize based on your host: e.g., Apache/Nginx + Laravel Forge) |
+| Framework   | Laravel (PHP)      |
+| Backend     | PHP (Laravel MVC)  |
+| Database    | MySQL              |
+| Frontend    | Blade Templates    |
+| Auth        | L Auth Scaffolding |
+| Deployment  | In Cpanel          |
 
 ---
 
@@ -40,8 +40,8 @@ Built with **Laravel** and **MySQL**, the application follows the **MVC (Model-V
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/midwaycafe.git
-cd midwaycafe
+git clone https://github.com/Martinaperes/Midway-Devine.git
+cd Midway-Devine
 ````
 
 ### 2. Install Dependencies
@@ -122,15 +122,13 @@ MidwayCafe was built to help local cafes:
 
 This project is licensed for personal or educational use. For any commercial use or contributions, please contact the authors.
 
+dennis: dennismuuo.dev@gmail.com
+martina: 1martinaperes@gmail.com
+
 ---
 
-## 🙌 Contribution
+## Contribution
 
 Pull requests and issues are welcome! Let’s improve the cafe experience together.
 
-```
-
----
-
-Let me know if you'd like to generate badges (e.g., Laravel version, license, etc.) or auto-deploy instructions (e.g., for shared hosting or Laravel Forge).
 ```
