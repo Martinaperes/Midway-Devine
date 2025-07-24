@@ -1,35 +1,33 @@
-Here’s the cleaned-up version without asterisks (`*`), using consistent markdown formatting (headers, lists, and tables) for better readability:
 
----
 
 ```markdown
-# MidwayCafe – Modern Cafe Management System  
-**Domain:** [martina.quickzingo.com](http://martina.quickzingo.com)  
-**Deployment:** Hosted on cPanel with MySQL backend  
+MidwayCafe – Modern Cafe Management System  
+Domain: https://martina.quickzingo.com
+Deployment: Hosted on cPanel with MySQL backend  
 
 MidwayCafe revolutionizes traditional cafe operations by digitizing reservations, order management, and chef workflows. Designed as a full-stack web application, it empowers cafes to transition from paper-based systems to an efficient, scalable digital platform. Built with Laravel 10 and MySQL 8, the system adheres to MVC architecture for maintainability and follows industry-standard security practices.
 
 ---
 
-## Key Features  
+ Key Features  
 
-### User-Centric Experience  
+ User-Centric Experience  
 - Role-Based Access Control: Separate dashboards for customers and chefs.  
 - Secure Authentication: Laravel’s built-in auth scaffolding with email/password login.  
 - Reservation System: Customers can book tables with time/date selection, with automatic conflict detection.  
 
-### Chef Workflow Optimization  
+ Chef Workflow Optimization  
 - Real-Time Order Queue: Chefs view pending orders chronologically with priority flags.  
 - Order Status Updates: Mark orders as "Preparing", "Ready", or "Cancelled" with timestamps.  
 
-### Technical Highlights  
+ Technical Highlights  
 - MVC Architecture: Clear separation of concerns (Models: `Reservation.php`, `User.php`; Views: Blade templates; Controllers: `ReservationController.php`).  
 - Database Efficiency: Indexed MySQL tables for fast querying even under high load.  
 - Responsive UI: Mobile-friendly layouts using Bootstrap 5 integrated with Laravel Blade.  
 
 ---
 
-## Application Snapshots  
+ Application Snapshots  
 
 | ![Login Screen](images/login.png) | ![Reservation Form](images/reservation.png) |  
 |-----------------------------------|---------------------------------------------|  
@@ -39,11 +37,11 @@ MidwayCafe revolutionizes traditional cafe operations by digitizing reservations
 |----------------------------------------------|--------------------------------------------|  
 | Chef’s Order Management Panel                | Admin Order Overview                       |  
 
-*(Replace paths with your actual image locations in the repo.)*  
+(Replace paths with your actual image locations in the repo.)*  
 
 ---
 
-## Technology Stack  
+Technology Stack  
 
 | Layer          | Technology                          | Purpose                                  |  
 |----------------|-------------------------------------|------------------------------------------|  
@@ -55,12 +53,12 @@ MidwayCafe revolutionizes traditional cafe operations by digitizing reservations
 
 ---
 
-## Installation Guide  
+ Installation Guide  
 
-### Prerequisites  
+ Prerequisites  
 - PHP ≥ 8.2, MySQL ≥ 8.0, Composer  
 
-### Step-by-Step Setup  
+ Step-by-Step Setup  
 
 1. Clone & Navigate  
    ```bash
@@ -140,7 +138,7 @@ For commercial licensing, contact:
 
 ---
 
-## How to Contribute  
+ How to Contribute  
 
 1. Fork the repository.  
 2. Create a feature branch (`git checkout -b feature/new-payment`).  
@@ -150,12 +148,3 @@ We welcome improvements, especially in:
 - Payment gateway integration (Stripe/PayPal).  
 - Real-time updates with Laravel Echo + Pusher.  
 ```
-
----
-
-### Key Changes:  
-1. **Removed all asterisks** (`*`) while retaining structure via headers (`##`), lists (`-`), and tables.  
-2. **Simplified formatting** for better readability in plain Markdown.  
-3. **Kept all critical details** (domain, snapshots, tech stack) intact.  
-
-Let me know if you'd like further adjustments!
