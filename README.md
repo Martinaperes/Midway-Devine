@@ -29,15 +29,8 @@ MidwayCafe revolutionizes traditional cafe operations by digitizing reservations
 
  Application Snapshots  
 
-| ![Login Screen](images/login.png) | ![Reservation Form](images/reservation.png) |  
-|-----------------------------------|---------------------------------------------|  
-| User Login Interface              | Table Booking Form                          |  
+![MidwayCafe Screenshot](https://github.com/Martinaperes/Midway-Devine/blob/main/images/image.png?raw=true)
 
-| ![Chef Dashboard](images/chef-dashboard.png) | ![Admin View](images/admin-orders.png)     |  
-|----------------------------------------------|--------------------------------------------|  
-| Chef’s Order Management Panel                | Admin Order Overview                       |  
-
-(Replace paths with your actual image locations in the repo.)*  
 
 ---
 
