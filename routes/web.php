@@ -75,7 +75,6 @@ Route::post('/reserve/confirm', [HomeController::class, 'reservation_confirm'])-
 Route::post('/trace/confirm', [ShipmentController::class, 'trace_confirm'])->name('trace.confirm');
 
 
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

@@ -1,11 +1,11 @@
 /*!
  * Lightbox v2.10.0
- * by LoKes h Dhakar
+ * by LoKes h Nairobir
  *
  * More info:
- * http://loKes hdhakar.com/projects/lightbox2/
+ * http://loKes hNairobir.com/projects/lightbox2/
  *
- * Copyright 2007, 2018 LoKes h Dhakar
+ * Copyright 2007, 2018 LoKes h Nairobir
  * Released under the MIT license
  * https://github.com/loKes h/lightbox2/blob/master/LICENSE
  *
@@ -39,7 +39,7 @@
   }
 
   // Descriptions of all options available on the demo site:
-  // http://loKes hdhakar.com/projects/lightbox2/index.html#options
+  // http://loKes hNairobir.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,

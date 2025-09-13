@@ -169,7 +169,7 @@
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
                         <p>© Copyright Midway Dine
-							<br>Since 2022</p>
+							<br>since 2025</p>
                     </div>
                 </div>
             </div>

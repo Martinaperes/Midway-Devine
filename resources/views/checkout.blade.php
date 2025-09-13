@@ -11,7 +11,7 @@
     <input ng-model="myVar" type="radio" id="cod" name="cod" value="cod">
     <label for="cod"><img style="max-width:150px;" src="{{ asset('assets/images/cod.png')}}"></label><br>
     <input ng-model="myVar" type="radio" id="bkash" name="bkash" value="bkash">
-    <label for="bkash"><img style="max-width:150px;"  src="{{ asset('assets/images/bkash.png')}}"></label><br><br><br>
+    <label for="bkash"><img style="max-width:150px;"  src="{{ asset('assets/images/mpesa.png')}}"></label><br><br><br>
     <div ng-switch="myVar">
         @if (Auth::check())
             <div ng-switch-when="cod">
@@ -25,7 +25,7 @@
             <?php
                 Session::put('total',$total);
             ?>
-            <a href="/ssl/pay"><input class="btn btn-success" type="submit" value="Pay with Online"></a>
+            <a href="/ssl/pay"><input class="btn btn-success" type="submit" value="Pay with M-Pesa"></a>
                  
                 @include('bkash-script')
             </div>

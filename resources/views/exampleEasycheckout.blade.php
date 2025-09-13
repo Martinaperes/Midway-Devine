@@ -46,7 +46,7 @@
             <ul class="list-group mb-3">
                
                 <li class="list-group-item d-flex justify-content-between">
-                    <span>Total (BDT)</span>
+                    <span>Total (KES)</span>
                     <strong>{{ $total }}</strong>
                 </li>
             </ul>
@@ -75,7 +75,7 @@
                         <label for="country">Country</label>
                         <select class="custom-select d-block w-100" id="country" required>
                             <option value="">Choose...</option>
-                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Kenya">Kenya</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid country.
@@ -85,7 +85,7 @@
                         <label for="state">State</label>
                         <select class="custom-select d-block w-100" id="state" required>
                             <option value="">Choose...</option>
-                            <option value="Dhaka">Dhaka</option>
+                            <option value="Nairobi">Nairobi</option>
                         </select>
                         <div class="invalid-feedback">
                             Please provide a valid state.
@@ -168,7 +168,7 @@
 
                 //return $address;
 
-                $address="Bangladesh";
+                $address="Kenya";
 
                 Session::put('sub_address', $address); 
                 

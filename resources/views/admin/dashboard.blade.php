@@ -312,55 +312,33 @@
                           @endphp
                           
                           @foreach($product_cart as $prod)
+    @if($i > 5)
+        @break
+    @endif
 
-                          @if($i>5)
+    @php
+        $index_search = array_search($prod, $copy_cart);
+        $product_get = DB::table('products')->where('id', $index_search)->first();
+        $copy_cart[$index_search] = NULL;
+        $i++;
+    @endphp
 
+    @if($product_get)
+        <tr>
+            <td style="text-align:center;">{{ $product_get->id }}</td>
+            <td style="text-align:center;">{{ $product_get->name }}</td>
+            <td style="text-align:center;">{{ $product_get->price }}</td>
+            <td style="text-align:center;">{{ $prod }}</td>
+        </tr>
+    @else
+        <tr>
+            <td colspan="4" style="text-align:center; color:red;">
+                Product not found for ID: {{ $index_search }}
+            </td>
+        </tr>
+    @endif
+@endforeach
 
-                          @break;
-
-                          @endif
-                          @php
-
-                          $index_search = array_search($prod,$copy_cart);
-
-
-
-
-                          $product_get=DB::table('products')->where('id',$index_search)->first();
-
-
-
-
-                          $copy_cart[$index_search]=NULL;
-
-
-
-
-                          //$per_rate=number_format($per_rate, 1);
-
-
-                          // $whole = floor($per_rate);      // 1
-                          //$fraction = $per_rate - $whole
-
-
-                          $i++;
-
-
-
-                          @endphp
-
-
-                            <tr>
-                             
-                              <td style="text-align:center;"> {{    $product_get->id      }} </td>
-                              <td style="text-align:center;"> {{   $product_get->name  }} </td>
-                              <td  style="text-align:center;"> {{    $product_get->price          }} </td>
-                              <td    style="text-align:center;"> {{              $prod      }} </td>
-                           
-                            </tr>
-
-
-                          @endforeach
                            
                           </tbody>
                         </table>

@@ -92,11 +92,11 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'sajeebchakraborty.cse2000@gmail.com'),
+        'address' => env('MAIL_FROM_ADDRESS', '1peresmartina@gmail.com'),
         'name' => env('MAIL_FROM_NAME', 'RMS Admin'),
     ],
 
-    'reply_to' => ['address' => 'sajeebchakraborty.cse2000@gmail.com', 'name' => 'RMS Admin'],
+    'reply_to' => ['address' => '1peresmartina@gmail.com', 'name' => 'RMS Admin'],
 
     /*
     |--------------------------------------------------------------------------

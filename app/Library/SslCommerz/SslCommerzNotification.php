@@ -422,10 +422,10 @@ class SslCommerzNotification extends AbstractSslCommerz
         $this->data['hotel_name'] = (isset($info['hotel_name'])) ? $info['hotel_name'] : null; // string (256)	Mandatory, if product_profile is travel-vertical - Please provide the hotel name. Example: Sheraton
         $this->data['length_of_stay'] = (isset($info['length_of_stay'])) ? $info['length_of_stay'] : null; // string (30)	Mandatory, if product_profile is travel-vertical - How long stay in hotel. Example: 2 days
         $this->data['check_in_time'] = (isset($info['check_in_time'])) ? $info['check_in_time'] : null; // string (30)	Mandatory, if product_profile is travel-vertical - Checking hours for the hotel room. Example: 24 hrs
-        $this->data['hotel_city'] = (isset($info['hotel_city'])) ? $info['hotel_city'] : null; // string (50)	Mandatory, if product_profile is travel-vertical - Location of the hotel. Example: Dhaka
+        $this->data['hotel_city'] = (isset($info['hotel_city'])) ? $info['hotel_city'] : null; // string (50)	Mandatory, if product_profile is travel-vertical - Location of the hotel. Example: Nairobi
         $this->data['product_type'] = (isset($info['product_type'])) ? $info['product_type'] : null; // string (30)	Mandatory, if product_profile is telecom-vertical - For mobile or any recharge, this information is necessary. Example: Prepaid or Postpaid
         $this->data['topup_number'] = (isset($info['topup_number'])) ? $info['topup_number'] : null; // string (150)	Mandatory, if product_profile is telecom-vertical - Provide the mobile number which will be recharged. Example: 8801700000000 or 8801700000000,8801900000000
-        $this->data['country_topup'] = (isset($info['country_topup'])) ? $info['country_topup'] : null; // string (30)	Mandatory, if product_profile is telecom-vertical - Provide the country name in where the service is given. Example: Bangladesh
+        $this->data['country_topup'] = (isset($info['country_topup'])) ? $info['country_topup'] : null; // string (30)	Mandatory, if product_profile is telecom-vertical - Provide the country name in where the service is given. Example: Kenya
 
         /*
          * Type: JSON

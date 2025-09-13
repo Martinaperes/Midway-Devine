@@ -748,7 +748,7 @@
                                 <div class="phone">
                                     <i class="fa fa-phone"></i>
                                     <h4>Phone Numbers</h4>
-                                    <span><a href="#">01824072334</a>
+                                    <span><a href="#">0716052342</a>
 									<br><a href="#">01554649446</a>
 									</span>
                                 </div>
@@ -757,8 +757,8 @@
                                 <div class="message">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Emails</h4>
-                                    <span><a href="mailto:sajeebchakraborty.cse2000@gmail.com">sajeebchakraborty.cse2000@gmail.com</a><br>
-									<a href="mailto:sajeebcb.cseru@gmail.com">sajeebcb.cseru@gmail.com</a><br>
+                                    <span><a href="mailto:1peresmartina@gmail.com">1peresmartina@gmail.com</a><br>
+									<a href="mailto:sdennismuuo.dev@gmail.com">sdennismuuo.dev@gmail.com</a><br>
 									</span>
                                 </div>
                             </div>
